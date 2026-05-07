@@ -22,11 +22,6 @@ class AdminUserSeeder extends Seeder
             'role' => 'admin',
             'created_at'=>\Carbon\Carbon::now(),
             'updated_at'=>\Carbon\Carbon::now(),
-
         ]);
-        
-        
-        
-        
     }
 }
