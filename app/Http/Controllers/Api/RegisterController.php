@@ -29,7 +29,7 @@ class RegisterController extends BaseController
             //'phone' => 'required|numeric|unique:users',
             'password' => 'required|min:8',
             'confirm_password' => 'required|same:password',
-            'role' => 'required|string',
+        //    'role' => 'required|string',
 			'photo' => 'image|mimes:jpeg,png,jpg,bmp,gif,svg|max:2048',
         ]);
         if($validator->fails())
